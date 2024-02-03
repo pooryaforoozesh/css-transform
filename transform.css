@@ -1,0 +1,393 @@
+ section { 
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
+ 
+  
+    
+}
+section .div1 {
+    width: 250px;
+    height: 250px;
+    background-color: rgb(231, 231, 209);
+    border: 1px solid rgb(17, 16, 15)   ;
+    margin: 10px;
+  
+
+}
+  
+
+  
+    /* width: 100px;
+    height: 100px;
+    background-color: rgb(40, 40, 139);
+   
+    margin: 50px; */
+    
+   
+   .div2{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(40, 40,139);
+    margin: 70px;
+   }
+
+
+ 
+.a{
+    width: 100px;
+    height: 100px;
+    background-color: silver;
+  
+}
+.a:hover {
+    
+    transform: rotate(45deg);
+    opacity:0.6 ;
+}
+
+.b{
+    width: 100px;
+    height: 100px;
+    background-color: silver;
+  
+}
+.b:hover {
+    
+    transform: rotatex(45deg);
+    opacity:0.6 ;
+}
+.c{
+    width: 100px;
+    height: 100px;
+    background-color: silver;
+  
+}
+.c:hover {
+    
+    transform: rotatey(45deg);
+ 
+  opacity: 0.6;  
+}
+.d{
+    
+        width: 100px;
+        height: 100px;
+        background-color: silver;
+  
+}
+.d:hover {
+   scale:3;
+    opacity: 0.6;  
+    
+}
+.e{
+    width: 100px;
+    height: 100px;
+    background-color: silver;
+  
+}
+.e:hover {
+    transform: scalex(3);
+    opacity:0.6 ;
+    
+    }
+
+  
+ .f:hover{
+   /* transform-origin: ; */
+   /* transform: perspective(200px) rotateY(60deg); */
+   transform: scaley(3) ;
+   opacity: 0.6;  
+
+        }
+
+
+ .f{
+     width: 100px; 
+     height: 100px;
+    background-color:silver;
+ }
+
+
+
+.g{
+    width: 100px;
+    height: 100px;
+    background-color: silver;
+  
+}
+.g:hover {
+    transform: skewX(45deg);
+    
+    opacity: 0.6;  
+    
+}
+.h{
+    width: 100px;
+    height: 100px;
+    background-color: silver;
+  
+}
+.h:hover {
+    
+   transform: skewy(45deg);
+   opacity: 0.6;  
+    
+}
+.i{
+    width: 100px;
+    height: 100px;
+    background-color: silver;
+    
+  
+}
+.i:hover {
+    
+    transform: translate(30px,10px);
+    opacity: 0.6;  
+    
+}
+.j{
+    width: 100px;
+    height: 100px;
+    background-color: silver;
+  
+}
+.j:hover {
+    
+    transform: translate(100px) ;
+    opacity: 0.6;  
+}
+
+ 
+
+ .k{
+    width: 100px;
+    height: 100px;
+    background-color: silver; 
+  
+} 
+
+.k:hover{
+    transform: scaley(1.75);
+    transform-origin: top;
+    opacity: 0.6;  
+}
+
+
+
+.l{
+    width: 100px;
+    height: 100px;
+    background-color: silver;
+  
+}
+
+.l:hover {
+    
+   transform: skewy(45deg) scale(1.5);
+   opacity: 0.6;  
+}
+
+ 
+  
+
+.z{
+    width: 100px;
+    height: 100px;
+    background-color: silver;
+  
+}
+.z:hover {
+    
+    transform:perspective(100px) rotatex(45deg);
+    
+    opacity: 0.6;  
+}
+.y{
+    width: 100px;
+    height: 100px;
+    background-color: silver;
+  
+}
+.y:hover {
+    
+   
+     transform: perspective(100px) rotatey(45deg);
+     opacity: 0.6;  
+    
+}
+
+
+.m{
+    width: 100px;
+    height: 100px;
+    background-color: silver;
+
+}
+.m:hover {
+    
+transform-origin: top right ;
+transform: rotate(45deg);
+opacity: 0.6;  
+    
+}
+.n{
+    width: 100px;
+    height: 100px;
+    background-color: silver;
+  
+}
+.n:hover {
+    
+    transform-origin: bottom left;
+    transform: rotate(45deg);
+    opacity: 0.6;  
+    
+}
+.o{
+    width: 100px;
+    height: 100px;
+    background-color: silver;
+  
+}
+.o:hover {
+    
+    transform: perspective(200px) rotatex(45deg);
+    
+    transform-origin: bottom;
+    opacity: 0.6;  
+}
+.p{
+    width: 100px;
+    height: 100px;
+    background-color: silver;
+  
+}
+.p:hover {
+    
+    transform-origin:  left ;
+    transform: scalex(2);
+    opacity: 0.6;  
+}
+
+.q{
+    width: 100px;
+    height: 100px;
+    background-color: silver;
+  
+}
+.q:hover {
+    
+    transform-origin: top right;
+    transform: scale(1.5);
+    opacity: 0.6;  
+}
+
+.r{
+    width: 100px;
+    height: 100px;
+    background-color: silver;
+  
+}
+.r:hover {
+    transform-origin:right ;
+    transform: perspective(200px) rotateY(60deg);
+    opacity: 0.6;
+    
+    /* transform: perspective();
+    transform-origin: right ;
+    transform: scalex(1.5);
+    opacity: 0.6;   */
+}
+.s{
+    width: 100px;
+    height: 100px;
+    background-color: silver;
+  
+}
+.s:hover {
+    
+    transform-origin: top right;
+    transform: scale(2);
+    opacity:0.6 ;
+  
+}
+.t{
+    width: 100px;
+    height: 100px;
+    background-color: silver;
+  
+}
+.t:hover {
+
+
+      transform-origin: bottom left;
+    transform: scale(2);
+    opacity:0.6 ;
+    /* transform-origin:right ;
+    transform: scaley(1.5);
+    opacity: 0.6;   */
+}
+
+.u{
+    width: 100px;
+    height: 100px;
+    background-color: silver;
+  
+}
+.u:hover {
+    
+    transform-origin: right ;
+    transform:scalex(2);
+    opacity: 0.6;  
+}
+
+.v{
+    width: 100px;
+    height: 100px;
+    background-color: silver;
+  }
+.v:hover {
+    
+    transform-origin:left;
+    transform: scalex(2);
+    opacity: 0.6;
+    
+}
+.aa{
+    width: 100px;
+    height: 100px;
+    background-color: silver;
+  }
+.aa:hover {
+    
+   
+transform:scaley(2);
+  transform-origin: top;
+  opacity: 0.6;  
+}
+
+.bb{
+    width: 100px;
+    height: 100px;
+    background-color: silver;
+  }
+.bb:hover {
+    transform:scaley(2);
+  transform-origin: bottom;
+  opacity: 0.6;  
+  
+   
+    
+}
+
+
+
+
+
+
+
+
+
